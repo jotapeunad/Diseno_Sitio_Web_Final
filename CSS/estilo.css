@@ -1,0 +1,67 @@
+body{
+    background-color: darkgrey;
+}
+nav, header, .contenedor, footer{
+    max-width: 92%;
+    margin: auto;
+}
+nav{    
+     background-color:#919191;
+    text-align: center;
+} 
+header{
+    background-color: white;
+    border-image-repeat: space;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.0em 1em;
+}
+.contenedor{
+    background-color: #005883;
+}
+.centrar{
+    background-color: chocolate;
+    display: inline-block;
+    max-width: 65%;
+}
+footer{
+    background-color: #ff0000c4;
+    text-align: center;
+}
+aside{
+    background-color:grey;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    max-width: 33%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/* MENU*/
+.menu li{
+    display: inline-block;
+    padding: 0.8em 0.8em;
+}
+li a, boton{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.0em 1em;
+}
+.listaDesplegable{
+    display: none;
+    background-color: ghostwhite;
+    position: absolute;
+}
+.listaDesplegable a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listaDesplegable{
+    display: block;
+}
+li a:hover{
+    background-color: red;
+}
